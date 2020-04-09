@@ -1,0 +1,8 @@
+pipelines:
+  - name: pipelines_test_sample5
+    steps:
+      - name: sample_test5
+        type: Bash
+        execution:
+          onExecute:
+            - printenv
