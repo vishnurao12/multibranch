@@ -1,8 +1,8 @@
 
 pipelines:
-  - name: pipelines_test
+  - name: pipelines_test_sample1
     steps:
-      - name: myStep1
+      - name: sample_test1
         type: Bash
         execution:
           onExecute:
