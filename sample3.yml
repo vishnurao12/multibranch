@@ -1,7 +1,7 @@
 pipelines:
   - name: pipelines_test_sample3
     steps:
-      - name: sample_test4
+      - name: sample_test3
         type: Bash
         execution:
           onExecute:
