@@ -23,7 +23,7 @@ pipelines:
 #           runtime:           
 #             type: host
           inputResources: 
-            - name: resource_pipelines1245
+            - name: resource_multibranch
           integrations:
             - name: git_v
         execution:
